@@ -1,7 +1,7 @@
 import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
 import { PropsWithChildren } from "react";
 
-const GRAPHQL_ENDPOINT = 'https://localhost:1337/graphql';
+const GRAPHQL_ENDPOINT = 'http://localhost:1337/graphql';
 
 const StrapiApolloProvider: React.FC<PropsWithChildren<{}>> = ({children}) => {
 
